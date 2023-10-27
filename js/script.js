@@ -10,14 +10,16 @@ const { createApp } = Vue
       return {
         title: 'Hello Vue!',
         immagine : 'https://picsum.photos/id/237/300/200',
-        blueColor : '.blue'
+        colorText : 'blue'
       }
     },
     methods: {
         changeImg () {
             this.immagine = 'https://picsum.photos/300/200'
+        },
+        changeColorText(){
+            this.colorText = 'red'
         }
-
 
     }
   }).mount('#app')
