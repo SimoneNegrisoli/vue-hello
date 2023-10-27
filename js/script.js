@@ -8,7 +8,8 @@ const { createApp } = Vue
   createApp({
     data() {
       return {
-        title: 'Hello Vue!'
+        title: 'Hello Vue!',
+        immagine : 'https://picsum.photos/id/237/300/200'
       }
     }
   }).mount('#app')
