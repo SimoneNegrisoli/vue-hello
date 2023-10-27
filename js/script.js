@@ -10,15 +10,15 @@ const { createApp } = Vue
       return {
         title: 'Hello Vue!',
         immagine : 'https://picsum.photos/id/237/300/200',
-        colorText : 'blue'
+        isBlue: true,
       }
     },
     methods: {
         changeImg () {
-            this.immagine = 'https://picsum.photos/300/200'
+            this.immagine = 'https://picsum.photos/300/200';
         },
         changeColorText(){
-            this.colorText = 'red'
+            this.isBlue = !this.isBlue  
         }
 
     }
